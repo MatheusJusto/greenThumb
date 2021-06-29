@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Front End Test - Greenthumb</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.scss" />
+  </head>
+
+  <body>
+    <main>
+      <header class="header">
+        <h1 class="logo"><img src="images/icons/logo-white.svg" alt="Greenthumb" /></h1>
+        <h2 class="h2 header-title">Find your next green friend</h2>
+        <a href="#" id="scrollArrow">
+          <img src="images/icons/arrow-down.svg" alt="arrow down" class="header-scroll icon" /> 
+        </a>
+      </header>
+      <img src="images/hero/mobile/mobile-plantperson.png" alt="Plantperson character" class="header-mainImg">
+    </main>
+
+    <section class="selectGreen" id="selectGreen">
+      <div class="container">
+
+        <div class="selectGreen-input">
+          <img src="images/illustrations/sun.png" alt="sun">
+          <p><span class="bold">1.</span> Set the amount of <span class="bold">sunlight</span> your plant will get.</p>
+          <select id="sun-select">
+            <option value="default">--Please choose an option--</option>
+            <option value="no">No</option>
+            <option value="low">Low</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+
+        <div class="selectGreen-input">
+          <img src="images/illustrations/wateringcan.png" alt="wateringcan">
+          <p><span class="bold">2.</span> How often do you want to <span class="bold">water</span> your plant?</p>
+          <select id="water-select" >
+            <option value="default">--Please choose an option--</option>
+            <option value="regularly ">Regularly </option>
+            <option value="daily">Daily</option>
+            <option value="rarely">Rarely </option>
+          </select>
+        </div>
+
+        <div class="selectGreen-input">
+          <img src="images/illustrations/dog.png" alt="dog" >
+          <p><span class="bold">3.</span> Do you have pets? Do they <span class="bold">chew</span> plants? </p>
+          <select id="pets-select" >
+            <option value="default">--Please choose an option--</option>
+            <option value="true">True</option>
+            <option value="false">False</option>
+          </select>
+        </div>
+
+      </div>
+    </section>
+    <section class="greenFriendResult">
+      <div class="container">
+        <div class="greenFriendResult-default">
+          <h2>No results yet…</h2>
+          <p>Use the filters above to find the plant that best fits your environment :)</p>
+          <img src="images/illustrations/no-results.png" alt="?">
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

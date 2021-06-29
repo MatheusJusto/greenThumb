@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//IPhonex X resolution
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: green;
+    color: #ffffff;
+    height: 200vh;
+}
+
+.h2 {
+    font-size: 40px;
+}
+.bold {
+    font-weight: bold;
+}
+.icon {
+    width: 35px;
+    margin: 15px 0 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+main {
+    background: #75BC97;
+    padding: 20px;
+    width: 100%;
+    background-image: url('./images/hero/mobile/mobile-leaves.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top -10%;
+    text-align: center;
+
+}
+
+.header {
+    text-align: left;
+
+    .header-title {
+        margin: 40px 0 0;
+    }
+    .header-scroll {
+        margin: 15px 0;
+    }
+}
+
+.header-mainImg {
+    width: 276px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.selectGreen {
+    background: #ffffff;
+
+    .selectGreen-input {
+        margin: 40px 0;
+        img {
+            width: 100px;
+        }
+        p {
+            color: #797979;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+    
+        select {
+            width: 245px;
+            height: 40px;
+            margin: 20px 0;
+            padding: 5px 15px;
+            border: 1px solid #797979;
+            border-radius: 20px;
+        }
+    }
+}
+
+.greenFriendResult {
+    background: #F6F6F6;
+    .greenFriendResult-default{
+        text-align: center;
+        h2 {
+        font-size: 2.85em;
+        color: #A9A9A9;
+        text-align: left;
+        }
+        p {
+        margin: 30px 0;
+        font-size: 1.2em;
+        color: #A9A9A9;
+        text-align: left;
+        }
+        img {
+            margin: 40px 0;
+        }
+    }
+}
+
